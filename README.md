@@ -1,23 +1,17 @@
-# 💡 Lights Out - Python
+# Lights Out - Python
 Juego de Lights Out desarrollado en Python para ejecutarse directamente en la terminal. El objetivo es apagar todas las luces del tablero utilizando el movimiento del jugador y activando o desactivando las casillas.
 
-## 🎮 Descripción
+<img width="592" height="300" alt="image" src="https://github.com/user-attachments/assets/c13ce803-eb14-4a3d-bcf1-40613417a901" />
+
+<img width="731" height="147" alt="image" src="https://github.com/user-attachments/assets/6cf607e6-204d-4a84-bda7-6ad4e0423dd8" />
+
+<img width="502" height="510" alt="image" src="https://github.com/user-attachments/assets/0192ef81-cf9c-4d97-9ae7-352143f0b586" />
+
+## Descripción
 El juego presenta un tablero de diferentes tamaños donde algunas luces comienzan encendidas. Al seleccionar una casilla, esta cambia de estado junto con sus casillas vecinas.
 El objetivo es lograr que **todas las luces del tablero queden apagadas**.
 
-## ✨ Características
-
-* 🎮 Juego interactivo desde la terminal.
-* 💡 Sistema de luces que cambian de estado.
-* 🧩 Tableros de diferentes tamaños.
-* 🎯 Movimiento mediante las flechas del teclado.
-* ⌨️ Controles mediante teclado.
-* 🎨 Colores y gráficos ASCII.
-* 🏆 Sistema de victoria.
-* 🚪 Opción para salir del juego.
-* 💡 Sistema de ayuda para mostrar posiciones relacionadas con el tablero.
-
-## 📊 Dificultades
+## Dificultades
 El juego cuenta con tres tamaños de tablero:
 
 | Opción | Tamaño |
@@ -26,7 +20,7 @@ El juego cuenta con tres tamaños de tablero:
 | `2`    | 7 × 7  |
 | `3`    | 9 × 9  |
 
-## 🕹️ Controles
+## Controles
 | Tecla       | Acción                         |
 | ----------- | ------------------------------ |
 | `↑`         | Mover hacia arriba             |
@@ -37,7 +31,7 @@ El juego cuenta con tres tamaños de tablero:
 | `ESPACIO`   | Mostrar una posición de ayuda  |
 | `Q` / `ESC` | Salir                          |
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 * **Python**
 * `msvcrt` para la lectura de teclas.
 * `os` para controlar elementos de la terminal.
@@ -45,7 +39,7 @@ El juego cuenta con tres tamaños de tablero:
 * Códigos **ANSI** para colores y posicionamiento.
 * Caracteres ASCII para representar la interfaz del juego.
 
-## 🚀 Requisitos
+## Requisitos
 Se necesita tener instalado:
 
 * Python 3.x
@@ -53,7 +47,7 @@ Se necesita tener instalado:
 
 No es necesario instalar librerías externas.
 
-## 🧠 Funcionamiento
+## Funcionamiento
 El tablero se representa mediante una matriz de valores:
 
 * `0` → luz apagada
@@ -67,5 +61,3 @@ Cuando se activa una casilla, se cambia su estado y también el de sus vecinos:
 * Derecha
 
 El juego termina cuando todas las posiciones de la matriz tienen el valor `0`.
-
-**Julio César Ju Salido**
